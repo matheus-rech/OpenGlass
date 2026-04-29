@@ -10,7 +10,8 @@
     "prebuild": "expo prebuild",
     "deploy": "gh-pages -t -d dist",
     "predeploy": "expo export -p web",
-    "prompts": "ts-node ./prompts/generate.ts"
+    "prompts": "ts-node ./prompts/generate.ts",
+    "test": "tsc --project tsconfig.test.json"
   },
   "dependencies": {
     "@expo/metro-runtime": "^3.2.1",
